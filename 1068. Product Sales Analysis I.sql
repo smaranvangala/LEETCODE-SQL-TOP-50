@@ -1,0 +1,5 @@
+--1068. Product Sales Analysis I
+SELECT p.product_name,s.year,s.price
+FROM Sales as s
+LEFT JOIN Product as p
+USING(product_id);
